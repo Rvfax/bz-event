@@ -91,3 +91,12 @@ main img{
   .place-prize {
     font-size: 1rem;
   }
+
+  @media((max-width: 768px)){
+    .place{
+        padding: 10px;
+    }
+    .podium{
+        gap: 10px;
+    }
+}
