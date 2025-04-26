@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #A99071;
-    display: flex;
+    
     justify-content: center;
     align-items: center; 
 }
@@ -46,6 +46,8 @@ main img{
     gap: 20px;
     text-align: center;
     margin-bottom: 50px;
+    justify-content: center;
+    align-items: center end; 
   }
 
   .place {
@@ -88,14 +90,4 @@ main img{
 
   .place-prize {
     font-size: 1rem;
-  }
-
-  @media (max-width: 600px) {
-    .podium {
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-    .place {
-      width: 80%;
-    }
   }
