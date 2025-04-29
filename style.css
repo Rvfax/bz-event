@@ -1,5 +1,4 @@
 body {
-  display: flex;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #A99071;
@@ -161,6 +160,10 @@ a{
 
 
 /* ----------[ Zadania ]---------- */
+
+#zad{
+  display: flex;
+}
 
 .check{
   border: 2px solid black;
