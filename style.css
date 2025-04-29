@@ -1,8 +1,8 @@
 body {
+  display: flex;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #A99071;
-    
     justify-content: center;
     align-items: center; 
 }
@@ -27,7 +27,7 @@ main button:hover{
     cursor: pointer;
 }
 
-main img{
+.flip-card img{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -156,4 +156,54 @@ a{
   .flip-card-back{
     font-size: x-small;
   }
+}
+
+
+
+/* ----------[ Zadania ]---------- */
+
+.check{
+  border: 2px solid black;
+  border-radius: 50px;
+  max-width: 10px;
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.uczestnik {
+  background-color: rgba(255, 255, 255, 0.162);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* wyśrodkowanie zawartości */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  width: 800px;
+}
+
+.punkty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* zadania będą zaczynały się od lewej, ale całość wycentrowana */
+  max-width: 800px;
+  width: 100%;
+}
+
+.c1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+@media((max-width: 768px)){
+  .uczestnik{
+    max-width: 300px;
+  }
+}
+
+.img{
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
