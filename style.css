@@ -47,13 +47,15 @@ a{
     margin-bottom: 50px;
     justify-content: center;
     align-items: center end;
+    font-size: 13px;
   }
 
   .place {
     background-color: #ddd;
     color: #000;
     padding: 20px;
-    width: 100px;
+    min-width: 90px;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -68,17 +70,17 @@ a{
 
   .first {
     background-color: #ffd700; /* złoto */
-    height: 220px;
+    min-height: 220px;
   }
 
   .second {
     background-color: #c0c0c0; /* srebro */
-    height: 180px;
+    min-height: 180px;
   }
 
   .third {
     background-color: #cd7f32; /* brąz */
-    height: 150px;
+    min-height: 150px;
   }
 
   .place-number {
