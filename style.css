@@ -161,6 +161,95 @@ a{
 
 
 
+/* ----------[ 3 Etap ]---------- */
+
+#etap3 {
+  max-width: 60%;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#etap3 table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#etap3 thead tr:first-child {
+  background-color: #d4af37; /* ciemniejsze złoto dla nagłówka grupującego */
+  color: white;
+  font-weight: bold;
+}
+
+#etap3 thead tr:nth-child(2) {
+  background-color: #d4af37; /* jaśniejsze złoto dla podnagłówków */
+  color: white;
+  font-weight: bold;
+}
+
+#etap3 th, #etap3 td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+#etap3 tr th:last-child,
+#etap3 tr td:last-child {
+  border-right: none;
+}
+
+#etap3 tbody tr:last-child td {
+  border-bottom: none;
+}
+
+#etap3 h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#etap3 .table-container {
+  overflow-x: auto;
+}
+
+#etap3 table {
+  width: 100%;
+  min-width: 700px;
+}
+
+#lvlup{
+  border: 3px solid red;
+  
+}
+
+#etap3 tbody tr:nth-child(6) {
+  border-bottom: 3px solid red;
+}
+
+
+@media((max-width: 768px)){
+  #etap3{
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0 0px;
+  }
+
+  #etap3 th, #etap3 td {
+  padding: 10px;
+  }
+
+  #etap3 table {
+  width: 100%;
+  min-width: 400px;
+  }
+}
+
+
 /* ----------[ Zadania ]---------- */
 
 #zad{
